@@ -25,39 +25,3 @@ article{
 article > aside{
     background-color: rgb(255, 248, 239);
 }
-footer{
-    background-color:rgb(255, 248, 239);
-    text-align: center;
-    padding: 1px;
-    margin: 0px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.159);
-}
-nav > a{
-    text-decoration: none;
-    color: black;
-    margin-right: 30px;
-}
-nav > a:hover{
-    text-decoration: underline;
-    background-color: rgb(252, 235, 215);
-}
-video{
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.218);
-}
-.rodpe2 a{
-    text-decoration: none;
-
-}
-.rodpe2{
-    padding: 10px;
-    
-}
-nav a{
-    text-decoration: none;
-    text-align: center;
-    padding: 20px;
-    font-weight: bolder;
-    color: rgb(35, 31, 26);
-
-}
