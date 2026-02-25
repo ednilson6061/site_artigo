@@ -25,3 +25,28 @@ article{
 article > aside{
     background-color: rgb(255, 248, 239);
 }
+nav{
+    background-color: rgb(255, 241, 223);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(208, 196, 156);
+}
+footer{
+    background-color: rgb(255, 248, 239);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    text-align: center;
+}
