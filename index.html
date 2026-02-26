@@ -26,8 +26,8 @@
         <section>
             <article>
                 <h2>Desenvolvendo um Site</h2>
-                <p>Olá me chamo Ednilson Rodrigues e estou desenvolvendo este site.
-                Aqui mostro o que eu aprendi sobre HTML, CSS e JavaScript. Espero que gostem do meu site e que ele seja útil para quem está aprendendo a desenvolver sites.
+                <p class="DS">Olá me chamo Ednilson Rodrigues e estou desenvolvendo este site.
+                Aqui mostro o que eu aprendi sobre <abbr title="HyperText Markup Language">HTML</abbr>,<abbr title="Cascading Style Sheets">CSS</abbr> e <abbr title="JavaScript">JavaScript</abbr>. Espero que gostem do meu site e que ele seja útil para quem está aprendendo a desenvolver sites.
                 </p>
                 <aside>
                     <p>Autor: Ednilson Rodrigues</p>
@@ -35,8 +35,25 @@
             </article>
         </section>
     </main>
-    <footer>
-        <p>Desenvolvido por Ednilson Rodrigues</p>
-    </footer>
+    <section>
+        <h2>Contato</h2>
+        <h3>Se você tiver alguma dúvida ou sugestão, entre em contato comigo!</h3>
+        <div class="ctts">
+            <div class="ctt"> <p><strong>Email:</strong> ednilsonpriv@gmail.com</p></div>
+            <div class="ctt"><strong>Telefone:</strong> 75 99999999</div>
+        </div>
+    <h3>Entrar em contato</h3>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+    <hr>
+    <footer>Desenvolvido por Ednilson Rodrigues&reg;</footer>
 </body>
 </html>
