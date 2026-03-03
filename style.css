@@ -1,9 +1,10 @@
 @charset "UTF-8";
 body {
-    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(224, 225, 220);
+    text-align: justify;
 }
 header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(255, 248, 239);
     margin: 10px;
     padding: 10px;
@@ -11,6 +12,7 @@ header{
     box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
 }
 main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(255, 248, 239);
     padding: 10px;
     margin: 10px;
