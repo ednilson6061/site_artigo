@@ -71,11 +71,8 @@ form textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.contato{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif ;
-}
 .divctt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,4 +85,7 @@ form textarea{
 }
 .ctts{
     font-family: Arial, Helvetica, sans-serif;
+}
+.DS{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
