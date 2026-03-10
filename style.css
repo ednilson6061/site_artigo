@@ -2,6 +2,9 @@
 body {
     background-color: rgb(224, 225, 220);
     text-align: justify;
+    background-size:auto;
+    background-position: center;
+    background-image: url(imagem/fundo_site.jpg);
 }
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,7 +12,7 @@ header{
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
 }
 main{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,7 +20,7 @@ main{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
 }
 article{
     background-color:rgb(249, 237, 223);
@@ -49,7 +52,7 @@ footer{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
     text-align: center;
 }
 form{
@@ -80,7 +83,7 @@ form textarea{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
     background-color: rgb(255, 248, 239);
 }
 .ctts{
@@ -88,6 +91,7 @@ form textarea{
 }
 .DS{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .div_pag3_body{
     font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +99,7 @@ form textarea{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
 }
 .p_pag3{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -106,7 +110,7 @@ form textarea{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.479);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
     text-align: center;
     font-style: italic;
     font-weight: bold;
@@ -126,4 +130,15 @@ form textarea{
 .Doc-list a:hover{
     color: rgb(246, 223, 167);
     background-color: rgb(255, 248, 239);
+}
+.pag_midia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 248, 239);
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.479);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
