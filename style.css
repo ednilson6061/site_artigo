@@ -5,6 +5,9 @@ body {
     background-size:auto;
     background-position: center;
     background-image: url(imagem/fundo_site.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
